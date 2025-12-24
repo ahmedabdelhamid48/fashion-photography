@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.border-b-none {
+  border-bottom: none !important;
+}
+.hero{
+  background-image: radial-gradient(at center center, #05050500 0%, #050505 60%),
+    url("/img/hero3.png");
+  background-size: cover;
+  background-position:center; 
+  height: 100vh;
+ 
+  display: flex;
+  align-items:end;
+  justify-content: center;
+}
+
+.hero-content p {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Fahkwang", sans-serif;
+
+  padding-inline: 20px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: #fff;
+  word-break: break-all;
+  text-align: center;
+}
